@@ -65,7 +65,7 @@ const toggleComplete = (e) => {
         if (block) {
             let blockcontent = block.querySelector(".to-do");
             blockcontent.style.textDecoration = blockcontent.style.textDecoration === "line-through" ? "none" : "line-through";
-            blockcontent.style.color = blockcontent.style.color === "red" ? "white" : "red";
+            blockcontent.style.color = blockcontent.style.color === "grey" ? "black" : "grey";
         }
     }
 };
